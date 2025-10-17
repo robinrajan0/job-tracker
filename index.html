@@ -20,6 +20,27 @@
             align-items: center;
             padding: 20px;
         }
+
+           /* ✅ Link style */
+    .top-link {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: white;
+      color: #667eea;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .top-link:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+    }
         
         .container {
             background: white;
@@ -131,6 +152,7 @@
     </style>
 </head>
 <body>
+     <a class="top-link" href="https://docs.google.com/spreadsheets/d/1BzgqHoVlLtM6UDYkDmldcu7W_jy4M58p3MgnCOupWVo/edit?usp=sharing" target="_blank">📄 Job Listing</a>
     <div class="container">
         <h1>📋 Job Application Tracker</h1>
         <p class="subtitle">Track your job applications efficiently</p>
